@@ -5,5 +5,5 @@
   See standalone website <a href="https://uplift.now.sh">here</a>
 <p>
 
-![](images/screenshot.png)
+![](src/uplift/images/screenshot.png)
 
