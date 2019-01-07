@@ -1,0 +1,3 @@
+[submodule "src/uplift"]
+	path = src/uplift
+	url = git@github.com:dawsbot/uplift.git

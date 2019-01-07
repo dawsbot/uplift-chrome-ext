@@ -7,3 +7,18 @@
 
 ![](src/uplift/images/screenshot.png)
 
+## Dev Instructions:
+
+1. Update the submodule
+
+```sh
+cd uplift
+git pull
+cd ..
+git add uplift
+git commit -m "updating submodule to latest"
+```
+
+2. Zip new contents (classic Mac way)
+
+3. Upload new zip to [Chrome Dev Dashboard](https://chrome.google.com/webstore/developer/edit/anhkohifmklhaghbkicjmaomaacgkcek)
