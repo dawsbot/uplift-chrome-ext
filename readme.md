@@ -12,10 +12,10 @@
 1. Update the submodule
 
 ```sh
-cd uplift
+cd src/uplift
 git pull
-cd ..
-git add uplift
+cd ../..
+git add src
 git commit -m "updating submodule to latest"
 ```
 
