@@ -1,0 +1,8 @@
+{
+  "name": "uplift-chrome-ext",
+  "private": true,
+  "scripts": {
+    "prebundle": "git submodule update --init --recursive",
+    "bundle": "rm -f uplift-*.zip && zip -r \"uplift-$(node -p \"require('./manifest.json').version\").zip\" manifest.json src -x '*.git*' '*/readme.md' '*/now.json' '*CLAUDE.md'"
+  }
+}
